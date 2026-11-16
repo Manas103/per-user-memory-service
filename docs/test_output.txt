@@ -1,0 +1,19 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.1.0, pluggy-1.6.0 -- C:\Users\Manas\Downloads\Auto Job Applier\Total Job Application process flow\projects\per-user-memory-service\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Manas\Downloads\Auto Job Applier\Total Job Application process flow
+configfile: pytest.ini
+plugins: anyio-4.14.1
+collecting ... collected 9 items
+
+tests\test_embedding.py::test_training_loss_decreases PASSED             [ 11%]
+tests\test_embedding.py::test_question_phrasing_nearest_neighbor_matches_its_own_slot PASSED [ 22%]
+tests\test_extractor.py::test_extract_statement_inverts_template_exactly PASSED [ 33%]
+tests\test_extractor.py::test_extract_returns_none_for_unknown_text PASSED [ 44%]
+tests\test_retrieval_isolation.py::test_retrieval_never_crosses_user_boundary PASSED [ 55%]
+tests\test_store.py::test_consolidation_keeps_latest_value_with_provenance PASSED [ 66%]
+tests\test_store.py::test_deletion_removes_consolidated_row_and_tombstones_raw_facts PASSED [ 77%]
+tests\test_store.py::test_deletion_leak_without_fix_then_fixed_by_propagation PASSED [ 88%]
+tests\test_store.py::test_decay_drops_slots_unmentioned_past_the_threshold PASSED [100%]
+
+============================== 9 passed in 3.09s ==============================

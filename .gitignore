@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Logs and runtime artifacts (regenerate with: python -m src.measure docs)
+*.log
+data/
+
+# Build output
+build/
+dist/

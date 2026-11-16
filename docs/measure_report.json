@@ -1,0 +1,27 @@
+{
+  "n_users": 40,
+  "n_sessions_per_user": 10,
+  "total_held_out_sessions": 400,
+  "total_deletion_events": 66,
+  "deletion_leak_before_fix": {
+    "narrative_summaries": 80,
+    "leaking": 21,
+    "leak_rate_pct": 26.25
+  },
+  "deletion_leak_after_fix": {
+    "narrative_summaries": 80,
+    "leaking": 0,
+    "leak_rate_pct": 0.0
+  },
+  "qa": {
+    "probes": 400,
+    "never_forget_accuracy_pct": 83.5,
+    "consolidated_accuracy_pct": 100.0,
+    "gap_points": 16.5
+  },
+  "tokens": {
+    "avg_never_forget_tokens_per_user": 126.7,
+    "avg_consolidated_tokens_per_user": 42.4,
+    "reduction_pct": 66.54
+  }
+}

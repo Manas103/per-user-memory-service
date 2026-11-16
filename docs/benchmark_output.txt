@@ -1,0 +1,14 @@
+held-out sessions: 400 (40 users x 10 sessions)
+deletion events in corpus: 66
+
+deletion leak, naive (no propagation): 21/80 narrative summaries (26.25%)
+deletion leak, with propagation fix:   0/80 narrative summaries (0.0%)
+
+QA probes: 400
+never-forget baseline accuracy: 83.5%
+consolidated store accuracy:    100.0%
+accuracy gap: 16.5 points
+
+avg never-forget tokens/user:  126.7
+avg consolidated tokens/user:  42.4
+stored-token reduction: 66.54%
